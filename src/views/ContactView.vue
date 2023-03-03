@@ -46,10 +46,10 @@ export default {
     }
     #form{
         width: 35rem;
-         box-shadow: 0 0 25px lightgreen;
+        box-shadow: 0 0 25px lightgrey;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        background-color: grey; 
+        background-color: white; 
         /* background-color: white;  */
     }
 
@@ -64,8 +64,8 @@ export default {
     }
 }
 @media screen and (max-width: 300px) {
-    box-shadow{
-       display: none;
+    #form{
+       border: none;
 }
 @media screen and (max-width: 530px) {
     #form{
